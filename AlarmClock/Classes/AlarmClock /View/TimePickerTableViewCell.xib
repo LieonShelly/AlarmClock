@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="187" id="KGk-i7-Jjw" customClass="TimePickerTableViewCell" customModule="AlarmClock" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="187"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="186.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tLK-2Y-n5N">
+                        <rect key="frame" x="10" y="10" width="321" height="166.5"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pg5-yc-AAy">
+                                <rect key="frame" x="0.0" y="0.0" width="321" height="166.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <date key="date" timeIntervalSinceReferenceDate="590488042.18252301">
+                                    <!--2019-09-18 08:27:22 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Pg5-yc-AAy" firstAttribute="leading" secondItem="tLK-2Y-n5N" secondAttribute="leading" id="3pe-ZX-ZB0"/>
+                            <constraint firstAttribute="bottom" secondItem="Pg5-yc-AAy" secondAttribute="bottom" id="WhZ-4m-tba"/>
+                            <constraint firstAttribute="trailing" secondItem="Pg5-yc-AAy" secondAttribute="trailing" id="uIJ-Hl-a2b"/>
+                            <constraint firstItem="Pg5-yc-AAy" firstAttribute="top" secondItem="tLK-2Y-n5N" secondAttribute="top" id="vAD-MQ-rpo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tLK-2Y-n5N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FZh-sz-W6V"/>
+                    <constraint firstItem="tLK-2Y-n5N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="O2m-aB-cR6"/>
+                    <constraint firstAttribute="bottom" secondItem="tLK-2Y-n5N" secondAttribute="bottom" constant="10" id="Zny-fe-UFk"/>
+                    <constraint firstAttribute="trailing" secondItem="tLK-2Y-n5N" secondAttribute="trailing" constant="10" id="lh8-Nt-gUJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="152.89855072463769" y="200.55803571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
