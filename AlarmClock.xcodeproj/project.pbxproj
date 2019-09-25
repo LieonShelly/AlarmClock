@@ -26,6 +26,9 @@
 		CD54F7DE232F28F400741A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD54F7DD232F28F400741A29 /* Assets.xcassets */; };
 		CD54F7E1232F28F400741A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD54F7DF232F28F400741A29 /* LaunchScreen.storyboard */; };
 		CD54F7F7232F28F500741A29 /* AlarmClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54F7F6232F28F500741A29 /* AlarmClockUITests.swift */; };
+		CDA87AB32339F47600887FFA /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA87AB22339F47600887FFA /* HandyJSON.framework */; };
+		CDCEB808233B0AAF00CD9E13 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCEB806233B0AAF00CD9E13 /* UIViewAnimationViewController.swift */; };
+		CDCEB809233B0AAF00CD9E13 /* UIViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDCEB807233B0AAF00CD9E13 /* UIViewAnimationViewController.xib */; };
 		CDDB3288232F7208000A771C /* ACTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB3287232F7208000A771C /* ACTimer.swift */; };
 		CDEEE2902330C27500C5169B /* AlarmClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54F7EB232F28F500741A29 /* AlarmClockTests.swift */; };
 		CDEEE2972330D9EF00C5169B /* NumPadTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEEE2952330D9EF00C5169B /* NumPadTimeTableViewCell.swift */; };
@@ -48,6 +51,19 @@
 			remoteInfo = AlarmClock;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDA87AB12339F2F700887FFA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CD2755C12331CA69007737A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +92,10 @@
 		CD54F7F2232F28F500741A29 /* AlarmClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD54F7F6232F28F500741A29 /* AlarmClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockUITests.swift; sourceTree = "<group>"; };
 		CD54F7F8232F28F500741A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA87AA92339E5F700887FFA /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		CDA87AB22339F47600887FFA /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = "<group>"; };
+		CDCEB806233B0AAF00CD9E13 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
+		CDCEB807233B0AAF00CD9E13 /* UIViewAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIViewAnimationViewController.xib; sourceTree = "<group>"; };
 		CDDB3287232F7208000A771C /* ACTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTimer.swift; sourceTree = "<group>"; };
 		CDEEE2952330D9EF00C5169B /* NumPadTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumPadTimeTableViewCell.swift; sourceTree = "<group>"; };
 		CDEEE2962330D9EF00C5169B /* NumPadTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumPadTimeTableViewCell.xib; sourceTree = "<group>"; };
@@ -86,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA87AB32339F47600887FFA /* HandyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +151,7 @@
 		CD2755CF2331D7B6007737A1 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				CDCEB804233B0A4100CD9E13 /* Amnimations */,
 				CD2755D02331D7C8007737A1 /* Extensions.swift */,
 			);
 			path = Vender;
@@ -179,6 +201,7 @@
 				CD54F7EA232F28F500741A29 /* AlarmClockTests */,
 				CD54F7F5232F28F500741A29 /* AlarmClockUITests */,
 				CD54F7D4232F28F300741A29 /* Products */,
+				CDA87AA82339E5F700887FFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,6 +244,32 @@
 				CD54F7F8232F28F500741A29 /* Info.plist */,
 			);
 			path = AlarmClockUITests;
+			sourceTree = "<group>";
+		};
+		CDA87AA82339E5F700887FFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA87AB22339F47600887FFA /* HandyJSON.framework */,
+				CDA87AA92339E5F700887FFA /* Moya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDCEB804233B0A4100CD9E13 /* Amnimations */ = {
+			isa = PBXGroup;
+			children = (
+				CDCEB805233B0A7C00CD9E13 /* UIViewAnimation */,
+			);
+			path = Amnimations;
+			sourceTree = "<group>";
+		};
+		CDCEB805233B0A7C00CD9E13 /* UIViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CDCEB806233B0AAF00CD9E13 /* UIViewAnimationViewController.swift */,
+				CDCEB807233B0AAF00CD9E13 /* UIViewAnimationViewController.xib */,
+			);
+			path = UIViewAnimation;
 			sourceTree = "<group>";
 		};
 		CDDB3286232F71E5000A771C /* TimerService */ = {
@@ -271,6 +320,8 @@
 				CD54F7CF232F28F300741A29 /* Sources */,
 				CD54F7D0232F28F300741A29 /* Frameworks */,
 				CD54F7D1232F28F300741A29 /* Resources */,
+				CDA87AA72339E5B000887FFA /* Run Script */,
+				CDA87AB12339F2F700887FFA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -371,6 +422,7 @@
 				CD54F7DE232F28F400741A29 /* Assets.xcassets in Resources */,
 				CD2755C82331D0CA007737A1 /* TimeColckViewController.xib in Resources */,
 				CD2755C42331CA69007737A1 /* HomeViewController.xib in Resources */,
+				CDCEB809233B0AAF00CD9E13 /* UIViewAnimationViewController.xib in Resources */,
 				CD2755DC2332096C007737A1 /* PopMenuViewController.xib in Resources */,
 				CDEEE2982330D9EF00C5169B /* NumPadTimeTableViewCell.xib in Resources */,
 				CD2755CE2331D2E6007737A1 /* AlarmClockViewController.xib in Resources */,
@@ -393,6 +445,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CDA87AA72339E5B000887FFA /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/HandyJSON.framework",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD54F7CF232F28F300741A29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -406,6 +480,7 @@
 				CD2755CD2331D2E6007737A1 /* AlarmClockViewController.swift in Sources */,
 				CD2755D72331DC32007737A1 /* TimeClock.swift in Sources */,
 				CDEEE2972330D9EF00C5169B /* NumPadTimeTableViewCell.swift in Sources */,
+				CDCEB808233B0AAF00CD9E13 /* UIViewAnimationViewController.swift in Sources */,
 				CD2755DF23320A9F007737A1 /* PopMenuTableViewCell.swift in Sources */,
 				CD2755D12331D7C8007737A1 /* Extensions.swift in Sources */,
 				CD2755D42331D834007737A1 /* Protocols.swift in Sources */,
@@ -577,13 +652,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9HX4QQYHC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AlarmClock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlarmClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youhe.peas.novel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,13 +676,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9HX4QQYHC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AlarmClock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlarmClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youhe.peas.novel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
