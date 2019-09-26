@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     fileprivate func configRootVC() {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UIViewAnimationViewController()
+        window?.rootViewController = FlyDemoViewController()
         window?.makeKeyAndVisible()
     }
 }

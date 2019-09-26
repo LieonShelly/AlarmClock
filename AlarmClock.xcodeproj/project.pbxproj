@@ -27,6 +27,8 @@
 		CD54F7E1232F28F400741A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD54F7DF232F28F400741A29 /* LaunchScreen.storyboard */; };
 		CD54F7F7232F28F500741A29 /* AlarmClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54F7F6232F28F500741A29 /* AlarmClockUITests.swift */; };
 		CDA87AB32339F47600887FFA /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA87AB22339F47600887FFA /* HandyJSON.framework */; };
+		CDC0D078233B673F00BFCAF5 /* FlyDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0D076233B673F00BFCAF5 /* FlyDemoViewController.swift */; };
+		CDC0D079233B673F00BFCAF5 /* FlyDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC0D077233B673F00BFCAF5 /* FlyDemoViewController.xib */; };
 		CDCEB808233B0AAF00CD9E13 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCEB806233B0AAF00CD9E13 /* UIViewAnimationViewController.swift */; };
 		CDCEB809233B0AAF00CD9E13 /* UIViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDCEB807233B0AAF00CD9E13 /* UIViewAnimationViewController.xib */; };
 		CDDB3288232F7208000A771C /* ACTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB3287232F7208000A771C /* ACTimer.swift */; };
@@ -94,6 +96,8 @@
 		CD54F7F8232F28F500741A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA87AA92339E5F700887FFA /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		CDA87AB22339F47600887FFA /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = "<group>"; };
+		CDC0D076233B673F00BFCAF5 /* FlyDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyDemoViewController.swift; sourceTree = "<group>"; };
+		CDC0D077233B673F00BFCAF5 /* FlyDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlyDemoViewController.xib; sourceTree = "<group>"; };
 		CDCEB806233B0AAF00CD9E13 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
 		CDCEB807233B0AAF00CD9E13 /* UIViewAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIViewAnimationViewController.xib; sourceTree = "<group>"; };
 		CDDB3287232F7208000A771C /* ACTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTimer.swift; sourceTree = "<group>"; };
@@ -268,6 +272,8 @@
 			children = (
 				CDCEB806233B0AAF00CD9E13 /* UIViewAnimationViewController.swift */,
 				CDCEB807233B0AAF00CD9E13 /* UIViewAnimationViewController.xib */,
+				CDC0D076233B673F00BFCAF5 /* FlyDemoViewController.swift */,
+				CDC0D077233B673F00BFCAF5 /* FlyDemoViewController.xib */,
 			);
 			path = UIViewAnimation;
 			sourceTree = "<group>";
@@ -423,6 +429,7 @@
 				CD2755C82331D0CA007737A1 /* TimeColckViewController.xib in Resources */,
 				CD2755C42331CA69007737A1 /* HomeViewController.xib in Resources */,
 				CDCEB809233B0AAF00CD9E13 /* UIViewAnimationViewController.xib in Resources */,
+				CDC0D079233B673F00BFCAF5 /* FlyDemoViewController.xib in Resources */,
 				CD2755DC2332096C007737A1 /* PopMenuViewController.xib in Resources */,
 				CDEEE2982330D9EF00C5169B /* NumPadTimeTableViewCell.xib in Resources */,
 				CD2755CE2331D2E6007737A1 /* AlarmClockViewController.xib in Resources */,
@@ -475,6 +482,7 @@
 				CD2755E423322187007737A1 /* TimePickerTableViewCell.swift in Sources */,
 				CD2755C72331D0CA007737A1 /* TimeColckViewController.swift in Sources */,
 				CD2755C32331CA69007737A1 /* HomeViewController.swift in Sources */,
+				CDC0D078233B673F00BFCAF5 /* FlyDemoViewController.swift in Sources */,
 				CDDB3288232F7208000A771C /* ACTimer.swift in Sources */,
 				CD54F7D7232F28F300741A29 /* AppDelegate.swift in Sources */,
 				CD2755CD2331D2E6007737A1 /* AlarmClockViewController.swift in Sources */,
